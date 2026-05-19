@@ -1,0 +1,15 @@
+{
+  "name": "chocolatehub-wiki-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "sync": "node src/sync-notion.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "latest",
+    "discord.js": "latest",
+    "dotenv": "latest",
+    "openai": "latest"
+  }
+}
