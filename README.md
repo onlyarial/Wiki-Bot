@@ -1,6 +1,6 @@
-# Chocolate Hub Wiki Discord Bot
+# Wiki Discord Bot
 
-This bot syncs a Notion wiki into a local vector store, then answers Discord questions from that wiki.
+This bot syncs a Notion wiki into a local vector store, then answers questions through Discord from that wiki.
 
 ## What you need
 
@@ -83,11 +83,11 @@ Install pm2:
 
 ```bash
 npm install -g pm2
-pm2 start src/bot.js --name chocolatehub-wiki-bot
+pm2 start src/bot.js
 pm2 save
 pm2 startup
 ```
 
 ## Notes
 
-This starter uses a local JSON vector store. That is perfect for a small/medium Minecraft wiki. Later, you can replace it with Chroma, Pinecone, or Supabase Vector.
+This starter uses a local JSON vector store. That is perfect for a small/medium wiki. Later, you can replace it with Chroma, Pinecone, or Supabase Vector.
