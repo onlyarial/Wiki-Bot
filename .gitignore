@@ -1,0 +1,5 @@
+.env
+node_modules
+wiki-store.json
+.npm
+.DS_Store
